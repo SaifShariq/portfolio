@@ -183,11 +183,11 @@ header table {
     color: rgb(255, 44, 90);
     background: #fff;
     border: 3px solid rgb(255, 44, 90);
-    padding: 10px 25px;
+    padding: 10px 32px;
     width: 35%;
     border-radius: 80px;
     font-weight: bold;
-    margin: 2vh 0px;
+    margin: 4vh auto;
     transition: 0.4s ease-in-out;
 }
 .btn_two:hover {
@@ -215,9 +215,8 @@ header table {
     width:6%;
 }
 #photos {
-    width:70%;
-    padding: 0 262px;
-    columns:1;
+    width:100%;
+    columns:2;
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
@@ -231,6 +230,11 @@ header table {
 #photos img:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+#photos span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 #bio {
     width:92vw;
@@ -342,12 +346,31 @@ button:focus {
 
 @media (max-width: 1000px){
     #photos {
-    columns:1;
-    column-gap:0%;
+        width: 100%;
+        columns:1;
+        column-gap:0%;
+        /* padding: 0px 93px !important; */
     }
-    #photos img {
+    #photos span {
+        display: inline-block;
+        text-align: center;
+    }
+    .btn_two {
+        font-size: 15px;
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 44, 90);
+        background: #fff;
+        border: 3px solid rgb(255, 44, 90);
+        padding:6px 8px;
+        width:60%;
+        margin:4vh auto;
+        border-radius: 80px;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    /* #photos img {
         margin:5% 0px;
-    }
+    } */
     #photos img:hover {
         transform: scale(1);
         cursor: pointer;
