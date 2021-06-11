@@ -183,7 +183,6 @@ header table {
     color: rgb(255, 44, 90);
     background: #fff;
     border: 3px solid rgb(255, 44, 90);
-    padding: 10px 32px;
     width: 35%;
     border-radius: 80px;
     font-weight: bold;
@@ -212,7 +211,7 @@ header table {
 #projects h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:6%;
+    width:7.5%;
 }
 #photos {
     width:100%;
@@ -244,7 +243,7 @@ header table {
 #bio h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:8%;
+    width:5.5%;
 }
 #contact {
     width:92vw;
@@ -253,7 +252,7 @@ header table {
 #contact h1 {
     padding:5px 0px;
     border-bottom:4px solid rgb(255, 44, 90);
-    width:10%;
+    width:7.5%;
 }
 #contact table {
     width:100%;
@@ -400,16 +399,18 @@ button:focus {
         text-align:center;
     }
     .btn_one {
-    padding:6px 30px;
-    width:60%;
-    margin:4vh auto;
-    box-shadow:0px 10px 20px rgba(255, 44, 90, 0.8);
-    background:rgb(255, 44, 90);
-    color:#fff;
+        padding:6px 30px;
+        width:60%;
+        margin:4vh auto;
+        color:rgb(255, 44, 90);
+        background:#fff;
+        border:3px solid rgb(255, 44, 90);
     }
     .btn_one:hover {
-        box-shadow:0px 10px 40px rgba(255, 44, 90, 0.8);
+        box-shadow:0px 10px 30px rgba(255, 44, 90, 0.8);
         cursor:pointer;
+        color:#fff;
+        background:rgb(255, 44, 90);
     }
     #contact table tr td {
         width:100%;
@@ -424,14 +425,14 @@ button:focus {
     #contact form textarea {
         width:90%;
     }
-    #work h1 {
+    #projects h1 {
         width:19%;
     }
     #bio h1 {
-        width:25%;
+        width:14%;
     }
     #contact h1 {
-        width:33%;
+        width:18%;
     }
     header {
         width:96vw;
