@@ -386,15 +386,16 @@ button:focus {
         text-align:center;
     }
     #about {
-        width:92% !important;
+        width:80% !important;
         height:75vh;
         padding-top:20vh !important;
         text-align:center;
         padding:0px 4%;
     }
     #about table {
-        width:100%;
-        margin-top:6vh;
+        width: auto;
+        margin: 0px -20px;
+        
     }
     #about table tr td {
         text-align:center;
@@ -436,7 +437,7 @@ button:focus {
         width:18%;
     }
     header {
-        width:96vw;
+        width:91vw;
         background:#fff;
         padding:4vh 2vw;
         position:absolute;
